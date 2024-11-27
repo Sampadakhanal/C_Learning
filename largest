@@ -1,0 +1,11 @@
+# include <stdio.h>
+
+int main(){
+    int a,b,largest;
+    printf("Enter two number");
+    scanf ("%f%f",&a,&b);
+    Largest=a>b;
+    printf("The largest number is %d",largest);
+
+    return 0;
+}
