@@ -5,7 +5,7 @@ int main (){
     scanf("%d",&number);
     for(i=1;i<=number;i++)
     {
-        if(number%i=0){
+        if(number%i==0){
             count++;
         }
         if(count==2){
