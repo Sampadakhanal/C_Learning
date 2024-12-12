@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (){
     int number,sum=0,digit;
-    Printf("Enter a number:");
+    printf("Enter a number:");
     scanf("%d",&number);
     while(number!=0)
     {
@@ -9,6 +9,6 @@ int main (){
         sum+=digit;
         number=number/10;
     }
-      printf("\n Sum of digits",Sum);
+      printf("\n Sum of digits:%d",sum);
       return 0;
     }
